@@ -1,0 +1,13 @@
+[test-id="channel-dashboard-comment-card"],
+[test-id="channel-dashboard-shopping-card"],
+[test-id="channel-dashboard-news-card"],
+[test-id="channel-dashboard-ideas-card"],
+[test-id="channel-dashboard-recent-activity-card"],
+[test-id="channel-dashboard-creator-insider-card"],
+li.style-scope.ytcp-navigation-drawer a[href*="/comments/inbox"],
+li.style-scope.ytcp-navigation-drawer a[href*="/creator_music"],
+.likes-container,
+#likes-header-name
+{
+  display: none !important;
+}

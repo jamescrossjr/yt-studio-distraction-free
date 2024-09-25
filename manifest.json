@@ -1,0 +1,16 @@
+{
+  "name": "YouTube Studio Distraction Free",
+  "description": "Hide comments and other distractions in YouTube Studio",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://studio.youtube.com/*"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ]
+}
